@@ -1,6 +1,4 @@
-﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
-
+﻿
 a.navbar-brand {
   white-space: normal;
   text-align: center;
@@ -45,4 +43,82 @@ button.accept-policy {
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
+}
+
+
+
+/*меню*/
+
+.navbar {
+  /*шапкa сайту*/
+  width: 100%;
+  height: 70px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.navbar .container {
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-menu {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.navbar-menu li {
+  display: inline-block;
+}
+
+.navbar-menu li a {
+  display: inline-block;
+  color: #000;
+  opacity: 0.6;
+  text-decoration: none;
+  padding: 10px;
+  transition: all 0.08s ease-in-out; /*задержка при наведении на кнопку меню*/
+}
+
+.navbar-menu li a:hover {
+  opacity: 1;
+}
+/*все в одну лінію*/
+.navbar-wrap {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.callback {
+  margin-left: 30px;
+  padding: 10px 30px;
+  background-color: coral;
+  border-radius: 100px;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(255, 127, 80, 0.2);
+  transition: all 0.1s ease-in-out; /*замедление увеличения кнопки*/
+}
+.callback:hover {
+  transform: scale(1.04); /*увеличение кнопки при наведении*/
+  color: #fff;
+  box-shadow: 0 9px 9px rgba(255, 127, 80, 0.5);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+  color: #000;
+  transition: all 0.15s ease-in-out;
+}
+
+.navbar-brand:hover {
+  color: coral;
+}
+
+.cont_my2 {
+max-width: 500px;
+margin-left: auto;
+margin-right: auto;
 }

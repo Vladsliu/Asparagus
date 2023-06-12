@@ -56,6 +56,5 @@ namespace Asparagus2.Controllers
             return View(users);
         }
 
-       
     }
 }
