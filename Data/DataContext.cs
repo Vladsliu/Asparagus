@@ -12,6 +12,7 @@ namespace Asparagus2.Data
         }
 
         public DbSet<User> Users { get; set; }
+        public DbSet<Call> Calls { get; set; }
     }
 
 }

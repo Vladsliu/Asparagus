@@ -56,5 +56,29 @@ namespace Asparagus2.Controllers
             return View(users);
         }
 
+        [HttpGet]
+        public IActionResult Popup()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Popup(CallViewModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+
+            Call call = new Call
+            { 
+            Phone = model.Phone,
+            DateTime = DateTime.Now,
+            };
+            
+            _dataContext.Add(call);
+            _dataContext.SaveChanges();
+            return RedirectToAction("Privacy");
+        }
+
     }
 }
