@@ -32,10 +32,10 @@
       <ul class="navbar-menu">
         <li><a href="/">Home</a></li>
         <li><a href="Home/Privacy">News feed</a></li>
-        <li><a href="#">Menu3</a></li>
+        <li><a href="#">Contacts</a></li>
       </ul>
 
-      <a href="#" class="callback">Callback</a>
+         <a href="#popup" class="callback">Callback</a>
     </div>
   </div>
 </nav>
@@ -67,6 +67,9 @@
         <main role="main" class="pb-3">
             <div class="cont_my2">
             @RenderBody()
+            </div>
+            <div id="popup-container">
+                @await Html.PartialAsync("_Popup")
             </div>
         </main>
     </div>
