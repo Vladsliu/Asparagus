@@ -108,6 +108,11 @@ label {
 .news-item-odd {
     background-color: #ffffff;
 }
+.cont_my2 {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /*popup*/
 .popup {
@@ -172,12 +177,10 @@ label {
 }
 
 /*content*/
-body {
-    background: #e2e7ec;
-}
+
 .content {
     max-width: 1140px;
-    margin: 0 auto; /*center content*/
+    margin: 0 auto; 
     display: grid;
     grid-template-columns: repeat(auto-fit, 360px);
     grid-gap: 20px;
@@ -192,7 +195,6 @@ body {
 .item-big {
     grid-column: 1/-2;
     background-image: url('img/img big.png');
-    /*padding: 48px;*/
     display: grid;
     align-content: end;
 }
@@ -224,3 +226,4 @@ body {
 h2 {
     margin-left: 10px;
 }
+
