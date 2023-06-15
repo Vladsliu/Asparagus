@@ -80,5 +80,10 @@ namespace Asparagus2.Controllers
             return RedirectToAction("Privacy");
         }
 
+        [HttpGet]
+        public IActionResult Contacts()
+        {
+            return View();
+        }
     }
 }

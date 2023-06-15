@@ -5,6 +5,26 @@
       "PackagePath": "staticwebassets\\Asparagus2.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Чук\\source\\repos\\Asparagus2\\wwwroot\\css\\img\\Layer 2.png",
+      "PackagePath": "staticwebassets\\css\\img\\Layer 2.png"
+    },
+    {
+      "Id": "C:\\Users\\Чук\\source\\repos\\Asparagus2\\wwwroot\\css\\img\\Layer 5.png",
+      "PackagePath": "staticwebassets\\css\\img\\Layer 5.png"
+    },
+    {
+      "Id": "C:\\Users\\Чук\\source\\repos\\Asparagus2\\wwwroot\\css\\img\\Layer 7.png",
+      "PackagePath": "staticwebassets\\css\\img\\Layer 7.png"
+    },
+    {
+      "Id": "C:\\Users\\Чук\\source\\repos\\Asparagus2\\wwwroot\\css\\img\\Layer 9.png",
+      "PackagePath": "staticwebassets\\css\\img\\Layer 9.png"
+    },
+    {
+      "Id": "C:\\Users\\Чук\\source\\repos\\Asparagus2\\wwwroot\\css\\img\\img big.png",
+      "PackagePath": "staticwebassets\\css\\img\\img big.png"
+    },
+    {
       "Id": "C:\\Users\\Чук\\source\\repos\\Asparagus2\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
